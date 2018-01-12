@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DescrittoreRuoli xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="www.fenealgestweb.it">
+  <Ruoli>
+    <Ruolo Nome="Adminnistrator">
+      <Profilo>
+        <Funzione Nome="Visualizza" Area="Area1" Comando="Comando1" Descrizione="Descrizione profilo 1" Gruppo="Gruppo1" />
+        <Funzione Nome="Pubblica iscritti" Area="Area2" Comando="Comando2" Descrizione="Descrizione profilo 2" Gruppo="Gruppo2" />
+        <Funzione Nome="Visualizza iscritti regione" Area="Area3" Comando="Comando3" Descrizione="Descrizione profilo 3" Gruppo="Gruppo3" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />
+       </Profilo>
+    </Ruolo>
+    <Ruolo Nome="User">
+      <Profilo>
+        <Funzione Nome="Profilo1" Area="Area1" Comando="Comando1" Descrizione="Descrizione profilo 1" Gruppo="Gruppo1" />
+        <Funzione Nome="Profilo3" Area="Area3" Comando="Comando3" Descrizione="Descrizione profilo 3" Gruppo="Gruppo3" />
+      </Profilo>
+    </Ruolo>
+  </Ruoli>
+</DescrittoreRuoli>

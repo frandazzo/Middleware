@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{466A883D-893E-46FD-A2C0-D4257B63A6C0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WIN.BASEREUSE</RootNamespace>
+    <AssemblyName>WIN.TECHNICAL.VB.UTILS</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/WIN.TECHNICAL.VB.UTILS/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Reflection" />
+    <Import Include="WIN.BASEREUSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\AbstractAzienda.vb" />
+    <Compile Include="Business\AbstractPersona.vb" />
+    <Compile Include="Business\CodiceFiscaleCalculator.vb" />
+    <Compile Include="Business\DatiFiscali.vb" />
+    <Compile Include="Business\InvalidFiscalCodeException.vb" />
+    <Compile Include="Business\IPersona.vb" />
+    <Compile Include="Business\Moneta.vb" />
+    <Compile Include="CommandInterfaces\AbstractOpenCommand.vb" />
+    <Compile Include="CommandInterfaces\ICommand.vb" />
+    <Compile Include="CommandInterfaces\IOpenCommand.vb" />
+    <Compile Include="Documents\AbstractDocumento.vb" />
+    <Compile Include="Documents\IDocumento.vb" />
+    <Compile Include="DomainElements\AbstractPersistenceObject.vb" />
+    <Compile Include="DomainElements\Key.vb" />
+    <Compile Include="ExcelUtils\BaseExcelReader.vb" />
+    <Compile Include="ExcelUtils\Field.vb" />
+    <Compile Include="ExcelUtils\IBaseExcelReaderFactory.vb" />
+    <Compile Include="ExcelUtils\MultipleFileDataRetriever.vb" />
+    <Compile Include="ExcelUtils\OfficeExcelHandler.vb" />
+    <Compile Include="ExcelUtils\SheetStructure.vb" />
+    <Compile Include="GeoElements\GeoLocationHandler.vb" />
+    <Compile Include="GeoElements\Comune.vb" />
+    <Compile Include="GeoElements\ComuneNullo.vb" />
+    <Compile Include="GeoElements\Comunicazioni.vb" />
+    <Compile Include="GeoElements\GeoLocationController.vb" />
+    <Compile Include="GeoElements\IGeoLocationLoader.vb" />
+    <Compile Include="GeoElements\Indirizzo.vb" />
+    <Compile Include="GeoElements\Nazione.vb" />
+    <Compile Include="GeoElements\NazioneNulla.vb" />
+    <Compile Include="GeoElements\Provincia.vb" />
+    <Compile Include="GeoElements\ProvinciaNulla.vb" />
+    <Compile Include="GeoElements\Regione.vb" />
+    <Compile Include="GeoElements\RegioneNulla.vb" />
+    <Compile Include="IndexedObject.vb" />
+    <Compile Include="PeriodComparers\AbstractComparer.vb" />
+    <Compile Include="PeriodComparers\AbstractPeriodo.vb" />
+    <Compile Include="Assert.vb" />
+    <Compile Include="PeriodComparers\CompositePeriodo.vb" />
+    <Compile Include="PeriodComparers\ConfrontoGiornaliero.vb" />
+    <Compile Include="PeriodComparers\ConfrontoMensile.vb" />
+    <Compile Include="PeriodComparers\DataRange.vb" />
+    <Compile Include="PeriodComparers\FactoryConfrontoPeriodi.vb" />
+    <Compile Include="PeriodComparers\IConfrontoPeriodi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PeriodComparers\Periodo.vb" />
+    <Compile Include="PeriodComparers\PeriodoGiornaliero.vb" />
+    <Compile Include="PeriodComparers\PeriodoNullo.vb" />
+    <Compile Include="Security\Permission.vb" />
+    <Compile Include="Security\Profile.vb" />
+    <Compile Include="Security\Role.vb" />
+    <Compile Include="Security\RoleProfile.vb" />
+    <Compile Include="Security\User.vb" />
+    <Compile Include="SimpleFileSystemManager.vb" />
+    <Compile Include="TransactionalEnvironment\AbstractTransactionalCommand.vb" />
+    <Compile Include="TransactionalEnvironment\ITransactionalCommand.vb" />
+    <Compile Include="TransactionalEnvironment\SimpleTransactionManager.vb" />
+    <Compile Include="TransactionalEnvironment\TransactionalCommandExecutionException.vb" />
+    <Compile Include="TransactionalEnvironment\TransactionalScope.vb" />
+    <Compile Include="TransactionalEnvironment\TransactionError.vb" />
+    <Compile Include="WordUtils\EtichetteExporter.vb" />
+    <Compile Include="WordUtils\ExportOption.vb" />
+    <Compile Include="WordUtils\OfficeWordDocumentGenerator.vb" />
+    <Compile Include="WordUtils\OfficeWordHandler.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WIN.TECHNICAL.SECURITY\WIN.TECHNICAL.SECURITY.csproj">
+      <Project>{35a34ae3-e941-47b5-acaf-43a7bbb2e0fe}</Project>
+      <Name>WIN.TECHNICAL.SECURITY</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WIN.TECHNICAL.VB.GUI.UTILITY", "WIN.TECHNICAL.VB.GUI.UTILITY.vbproj", "{25F42231-E5F1-4A84-91B1-EF203542356A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WIN.TECHNICAL.VB.UTILS", "..\WIN.TECHNICAL.VB.UTILS\WIN.TECHNICAL.VB.UTILS.vbproj", "{466A883D-893E-46FD-A2C0-D4257B63A6C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIN.TECHNICAL.GUI.COMMONS", "..\WIN.TECHNICAL.GUI.UTILITY\WIN.TECHNICAL.GUI.COMMONS.csproj", "{601980AA-02B2-473B-ACE4-1C7D3C8B1EAB}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WIN.TECHNICAL.VB.GUI.UTILITY.vbproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\WIN.TECHNICAL.VB.UTILS\\WIN.TECHNICAL.VB.UTILS.vbproj
+		SccProjectName2 = \u0022$/FENEALGEST/WIN.TECHNICAL.VB.UTILS\u0022,\u0020KIDAAAAA
+		SccLocalPath2 = ..\\WIN.TECHNICAL.VB.UTILS
+		SccProjectUniqueName3 = ..\\WIN.TECHNICAL.GUI.UTILITY\\WIN.TECHNICAL.GUI.COMMONS.csproj
+		SccProjectName3 = \u0022$/FENEALGEST/WIN.TECHNICAL.GUI.UTILITY\u0022,\u0020QHGAAAAA
+		SccLocalPath3 = ..\\WIN.TECHNICAL.GUI.UTILITY
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F42231-E5F1-4A84-91B1-EF203542356A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F42231-E5F1-4A84-91B1-EF203542356A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F42231-E5F1-4A84-91B1-EF203542356A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F42231-E5F1-4A84-91B1-EF203542356A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601980AA-02B2-473B-ACE4-1C7D3C8B1EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601980AA-02B2-473B-ACE4-1C7D3C8B1EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601980AA-02B2-473B-ACE4-1C7D3C8B1EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601980AA-02B2-473B-ACE4-1C7D3C8B1EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

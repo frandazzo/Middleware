@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED116915-FC6D-4A68-A35A-79BE08267D1C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WIN.TECHNICAL.PERSISTENCE</RootNamespace>
+    <AssemblyName>WIN.TECHNICAL.VB.PERSISTENCE</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/WIN.TECHNICAL.VB.PERSISTENCE/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\Turnigest\References\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="WIN.BASEREUSE" />
+    <Import Include="WIN.TECHNICAL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBCommands\DBQueryExecuteCommand.vb" />
+    <Compile Include="Exceptions\ObjectNotDeletableException.vb" />
+    <Compile Include="Querying\Criteria\AbstractBoolCriteria.vb" />
+    <Compile Include="Core\AbstractPersistenceFacade.vb" />
+    <Compile Include="Core\AbstractPersistentMapper.vb" />
+    <Compile Include="Core\AbstractRDBMapper.vb" />
+    <Compile Include="Querying\Criteria\DataRangeStrictlyIntersectsCriteria.vb" />
+    <Compile Include="Querying\Criteria\DateEqualCriteria.vb" />
+    <Compile Include="Querying\Criteria\DateTimeContainedCriteria.vb" />
+    <Compile Include="Querying\Criteria\DateUtils.vb" />
+    <Compile Include="Querying\Criteria\MatchEqualCriteria.vb" />
+    <Compile Include="Querying\Criteria\MatchEqualNoUpperCaseCriteria.vb" />
+    <Compile Include="Querying\Criteria\MatchNoUpperCaseCriteria.vb" />
+    <Compile Include="Querying\Expressions\AndExp.vb" />
+    <Compile Include="DBSpecifics\CommandFactory.vb" />
+    <Compile Include="Querying\Criteria\CompositeCriteria.vb" />
+    <Compile Include="DataAccessServices.vb" />
+    <Compile Include="DBCommands\AbstractDbCommand.vb" />
+    <Compile Include="Querying\Criteria\DateContainedCriteria.vb" />
+    <Compile Include="DBSpecifics\DbType.vb" />
+    <Compile Include="Querying\Criteria\DateRangeContainedCriteria.vb" />
+    <Compile Include="Querying\Criteria\DateRangeIntersectsCriteria.vb" />
+    <Compile Include="Core\DBConfigSettings.vb" />
+    <Compile Include="Core\DBConnectionManager.vb" />
+    <Compile Include="DBCommands\DBDeleteCommand.vb" />
+    <Compile Include="DBCommands\DBInsertCommand.vb" />
+    <Compile Include="DBCommands\DBTransaction.vb" />
+    <Compile Include="DBSpecifics\DBTypeUtils.vb" />
+    <Compile Include="DBCommands\DBUpdateCommand.vb" />
+    <Compile Include="Exceptions\DuplicatedIndexException.vb" />
+    <Compile Include="Core\IMapper.vb" />
+    <Compile Include="Core\IMapperFinder.vb" />
+    <Compile Include="DBCommands\ISortStrategy.vb" />
+    <Compile Include="Querying\Criteria\MatchingCriteria.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Core\IPersistenceFacade.vb" />
+    <Compile Include="Querying\Expressions\NotExp.vb" />
+    <Compile Include="Querying\Criteria\OrderByCriteria.vb" />
+    <Compile Include="Querying\Expressions\OrExp.vb" />
+    <Compile Include="Core\PersistentObjectCache.vb" />
+    <Compile Include="Querying\PaginationQueryHandler.vb" />
+    <Compile Include="Querying\PaginationQueryTypes\AccessPaginationQuery.vb" />
+    <Compile Include="Querying\PaginationQueryTypes\MySqlPaginationQuery.vb" />
+    <Compile Include="Querying\PaginationQueryTypes\SqlServerPaginationQuery.vb" />
+    <Compile Include="Querying\Query.vb" />
+    <Compile Include="Querying\Criteria\Criteria.vb" />
+    <Compile Include="Querying\Criteria\SortCriteria.vb" />
+    <Compile Include="Querying\QueryFactory.vb" />
+    <Compile Include="Querying\SqlDialect.vb" />
+    <Compile Include="Querying\SubQueryCriteria.vb" />
+    <Compile Include="Core\UnitOfWork.vb" />
+    <Compile Include="ProxyUtils\VirtualLazyList.vb" />
+    <Compile Include="ProxyUtils\VirtualTypedList.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBConfig.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WIN.TECHNICAL.VB.UTILS\WIN.TECHNICAL.VB.UTILS.vbproj">
+      <Project>{466a883d-893e-46fd-a2c0-d4257b63a6c0}</Project>
+      <Name>WIN.TECHNICAL.VB.UTILS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

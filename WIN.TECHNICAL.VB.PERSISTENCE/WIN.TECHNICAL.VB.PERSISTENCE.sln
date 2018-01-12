@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WIN.TECHNICAL.VB.PERSISTENCE", "WIN.TECHNICAL.VB.PERSISTENCE.vbproj", "{ED116915-FC6D-4A68-A35A-79BE08267D1C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WIN.TECHNICAL.VB.UTILS", "..\WIN.TECHNICAL.VB.UTILS\WIN.TECHNICAL.VB.UTILS.vbproj", "{466A883D-893E-46FD-A2C0-D4257B63A6C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIN.TECHNICAL.SECURITY", "..\WIN.TECHNICAL.SECURITY\WIN.TECHNICAL.SECURITY.csproj", "{35A34AE3-E941-47B5-ACAF-43A7BBB2E0FE}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = WIN.TECHNICAL.VB.PERSISTENCE.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = ..\\WIN.TECHNICAL.VB.UTILS\\WIN.TECHNICAL.VB.UTILS.vbproj
+		SccProjectName2 = \u0022$/FENEALGEST/WIN.TECHNICAL.VB.UTILS\u0022,\u0020KIDAAAAA
+		SccLocalPath2 = ..\\WIN.TECHNICAL.VB.UTILS
+		CanCheckoutShared = false
+		SccProjectUniqueName3 = ..\\WIN.TECHNICAL.SECURITY\\WIN.TECHNICAL.SECURITY.csproj
+		SccProjectName3 = \u0022$/FENEALGEST/WIN.TECHNICAL.SECURITY\u0022,\u0020YBDAAAAA
+		SccLocalPath3 = ..\\WIN.TECHNICAL.SECURITY
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED116915-FC6D-4A68-A35A-79BE08267D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED116915-FC6D-4A68-A35A-79BE08267D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED116915-FC6D-4A68-A35A-79BE08267D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED116915-FC6D-4A68-A35A-79BE08267D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466A883D-893E-46FD-A2C0-D4257B63A6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A34AE3-E941-47B5-ACAF-43A7BBB2E0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A34AE3-E941-47B5-ACAF-43A7BBB2E0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A34AE3-E941-47B5-ACAF-43A7BBB2E0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A34AE3-E941-47B5-ACAF-43A7BBB2E0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

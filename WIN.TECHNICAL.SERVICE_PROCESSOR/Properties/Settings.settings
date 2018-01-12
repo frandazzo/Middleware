@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WIN.TECHNICAL.SERVICE_PROCESSOR.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TIMER_INTERVAL" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">360000</Value>
+    </Setting>
+    <Setting Name="EVENT_LOG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ImportExportServiceLogFenealgest</Value>
+    </Setting>
+    <Setting Name="PROCESSOR_ASSEMBLY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WIN.FENGEST_NAZIONALE.IMPORT_EXPORT.dll,WIN.FENGEST_LOCALE.MAIL_IMPORT.dll</Value>
+    </Setting>
+    <Setting Name="PROCESSOR_CLASS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WIN.FENGEST_NAZIONALE.IMPORT_EXPORT.ImportExportService,WIN.FENGEST_LOCALE.MAIL_IMPORT.Processor</Value>
+    </Setting>
+    <Setting Name="EVENT_LOG_SOURCE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FenealgestImportExportDataService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

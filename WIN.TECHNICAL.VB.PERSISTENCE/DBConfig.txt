@@ -1,0 +1,21 @@
+*Sottosistema di persistenza da istanziare*
+PersistenceService
+WIN.PERSISTENCE.SQLSERVER_SERVICES.dll
+
+*Classe di facciata che offre tutti i servizi per la persistenza nel sottosistema istanziato*
+PersistenceFacadeService
+WIN.PERSISTENCE.SQLSERVER_SERVICES.PersistenceFacade
+
+
+*Numero di elementi conservati nella cache*
+MaxCacheSize
+3
+
+*Stringa di connessione*
+ConnectionString
+Data Source=FRANCESCO;Initial Catalog=GeSin;Persist Security Info=True;User ID=RegUsr;Password=RegUsr
+
+
+*Tipo si servizio data base 
+ServiceName
+MsSqlServer2005 (oppure MsAccess)

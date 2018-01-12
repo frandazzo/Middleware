@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DescrittoreMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="www.fenealgestweb.it">
+  <ListaMenu>
+    <Menu>
+      <Funzioni>
+        <!--<Funzione Nome="Ricerca nominativi doppi">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Ricerca nominativi doppi" Padre="B0" Figlio="" Url="~/iscritti.aspx" Livello="2" Indice="0" />
+          </Nodi>
+        </Funzione>-->
+        <Funzione Nome="Analisi iscritti">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" UrlImage="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" UrlImage="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Analisi iscritti" Padre="B0" Figlio="" Url="~/iscritti.aspx" UrlImage="~/images/lucchetto.png" Livello="2" Indice="1" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza pubblicazioni">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" UrlImage="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" UrlImage="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Visualizza pubblicazioni" Padre="B0" UrlImage="" Figlio="" Url="~/iscritti.aspx" Livello="2" Indice="2" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza storico lista lavoratori liv nazionale">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Visualizza storico lista lavoratori" Padre="B0" Figlio="" Url="~/iscritti.aspx" Livello="2" Indice="3" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza storico lavoratore liv nazionale">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Ricerca lavoratori" Padre="B0" Figlio="" Url="~/Reserved/AreaNazionale/RicercaLavoratori.aspx?isnat=true" Livello="2" Indice="4" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Report iscritti">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Report iscritti" Padre="B0" Figlio="" Url="~/Reserved/AreaNazionale/ReportIscritti.aspx" Livello="2" Indice="5" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Ricerca bilancio">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Amministrativo" Padre="A0" Figlio="C0" Url="" Livello="1" Indice="1" />
+            <Nodo TestoMenu="Ricerca/visualizza bilancio" Padre="C0" Figlio="" Url="~/Reserved/AreaNazionale/Bilancio.aspx" Livello="2" Indice="1" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Report bilancio">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Amministrativo" Padre="A0" Figlio="C0" Url="" Livello="1" Indice="1" />
+            <Nodo TestoMenu="Report bilancio regionale" Padre="C0" Figlio="" Url="~/Reserved/AreaNazionale/ReportBilancio.aspx" Livello="2" Indice="2" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Report bilancio Provinciale">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Amministrativo" Padre="A0" Figlio="C0" Url="" Livello="1" Indice="1" />
+            <Nodo TestoMenu="Report bilancio provinciale" Padre="C0" Figlio="" Url="~/Reserved/AreaNazionale/ReportBilancioProvinciale.aspx" Livello="2" Indice="3" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Verifica bilancio">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Amministrativo" Padre="A0" Figlio="C0" Url="" Livello="1" Indice="1" />
+            <Nodo TestoMenu="Verifica invio bilanci" Padre="C0" Figlio="" Url="~/Reserved/AreaNazionale/VerificaBilancio.aspx" Livello="2" Indice="4" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Gestione newsletter">
+          <Nodi>
+            <Nodo TestoMenu="Amministrazione" Padre="" Figlio="B0" Url="" Livello="0" Indice="1" />
+            <Nodo TestoMenu="Gestione newsletter" Padre="B0" Figlio="" Url="~/Reserved/AreaAmministrativa/GestioneNewsletter.aspx" Livello="1" Indice="1" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Gestione download">
+          <Nodi>
+            <Nodo TestoMenu="Amministrazione" Padre="" Figlio="B0" Url="" Livello="0" Indice="1" />
+            <Nodo TestoMenu="Gestione download" Padre="B0" Figlio="" Url="~/Reserved/AreaAmministrativa/VisualizzaDownload.aspx" Livello="1" Indice="2" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Gestione news">
+          <Nodi>
+            <Nodo TestoMenu="Amministrazione" Padre="" Figlio="B0" Url="" Livello="0" Indice="1" />
+            <Nodo TestoMenu="Gestione news" Padre="B0" Figlio="" Url="~/Reserved/AreaAmministrativa/RicercaNews.aspx" Livello="1" Indice="2" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Gestione utenti">
+          <Nodi>
+            <Nodo TestoMenu="Amministrazione" Padre="" Figlio="B0" Url="" Livello="0" Indice="1" />
+            <Nodo TestoMenu="Crea utenti" Padre="B0" Figlio="" Url="~/Reserved/AreaAmministrativa/GestioneUtenti.aspx" Livello="1" Indice="3" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Ricerca utenti">
+          <Nodi>
+            <Nodo TestoMenu="Amministrazione" Padre="" Figlio="B0" Url="" Livello="0" Indice="1" />
+            <Nodo TestoMenu="Ricerca utenti" Padre="B0" Figlio="" Url="~/Reserved/AreaAmministrativa/RicercaUtenti.aspx" Livello="1" Indice="4" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza storico lista lavoratori liv regionale">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Visualizza storico lista lavoratori" Padre="C0" Figlio="" Url="~/iscritti.aspx" Livello="1" Indice="0" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza storico lavoratore liv regionale">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Ricerca lavoratori" Padre="C0" Figlio="" Url="~/Reserved/AreaNazionale/RicercaLavoratori.aspx?isnat=false" Livello="1" Indice="1" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Analisi iscritti regionale">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Analisi iscritti" Padre="C0" Figlio="" Url="~/iscritti.aspx" Livello="1" Indice="2" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza lista importazioni">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+             <Nodo TestoMenu="Visualizza lista importazioni" Padre="C0" Figlio="" Url="~/Reserved/AreaRegionale/VisualizzaTracciaImportazione.aspx" Livello="1" Indice="3" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Elimina Dati importazione">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Elimina Dati importazione" Padre="C0" Figlio="" Url="~/iscritti.aspx" Livello="1" Indice="4" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Pubblica iscritti">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Pubblica iscritti" Padre="C0" Figlio="" Url="~/iscritti.aspx" Livello="1" Indice="5" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza code in attesa">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Visualizza code in attesa" Padre="C0" Figlio="" Url="~/Reserved/AreaRegionale/VisualizzaCode.aspx" Livello="1" Indice="6" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Iscriviti alla newsletter">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="D0" Url="" Livello="0" Indice="3" />
+            <Nodo TestoMenu="Iscriviti alla newsletter" Padre="D0" Figlio="" Url="~/iscritti.aspx" Livello="1" Indice="0" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza news">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="D0" Url="" Livello="0" Indice="3" />
+            <Nodo TestoMenu="Visualizza news" Padre="D0" Figlio="" Url="~/iscritti.aspx" Livello="1" Indice="1" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Scarica materiali">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="D0" Url="" Livello="0" Indice="3" />
+            <Nodo TestoMenu="Scarica materiali" Padre="D0" Figlio="" Url="~/Reserved/AreaPubblica/ScaricaMateriali.aspx" Livello="1" Indice="2" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Rinnova password">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="D0" Url="" Livello="0" Indice="3" />
+            <Nodo TestoMenu="Rinnova password" Padre="D0" Figlio="" Url="~/Reserved/AreaPubblica/RinnovaPassLogged.aspx" Livello="1" Indice="3" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Password dimenticata">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="D0" Url="" Livello="0" Indice="3" />
+            <Nodo TestoMenu="Password dimenticata" Padre="D0" Figlio="" Url="~/Reserved/AreaPubblica/PassDimenticata.aspx" Livello="1" Indice="4" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Calcola codice fiscale">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="D0" Url="" Livello="0" Indice="3" />
+            <Nodo TestoMenu="Calcola codice fiscale" Padre="D0" Figlio="" Url="~/Reserved/AreaPubblica/CodiceFiscale.aspx" Livello="1" Indice="5" />
+          </Nodi>
+        </Funzione>
+      </Funzioni>
+    </Menu>
+  </ListaMenu>
+</DescrittoreMenu>

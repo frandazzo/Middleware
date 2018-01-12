@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DescrittoreMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="www.fenealgestweb.it">
+  <ListaMenu>
+    <Menu>
+      <Funzioni>
+        <Funzione Nome="Visualizza">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Visualizza/Modifica" Padre="B0" Figlio="" Url="~/iscritti.aspx" Livello="2" Indice="0" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Pubblica iscritti">
+          <Nodi>
+            <Nodo TestoMenu="Nazionale" Padre="" Figlio="A0" Url="" Livello="0" Indice="0" />
+            <Nodo TestoMenu="Iscritti" Padre="A0" Figlio="B0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Pubblica" Padre="B0" Figlio="" Url="~/pubblica.aspx" Livello="2" Indice="1" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Visualizza iscritti regione">
+          <Nodi>
+            <Nodo TestoMenu="Regionale" Padre="" Figlio="B0" Url="" Livello="0" Indice="1" />
+            <Nodo TestoMenu="Iscritti" Padre="B0" Figlio="C0" Url="" Livello="1" Indice="0" />
+            <Nodo TestoMenu="Visualizza" Padre="C0" Figlio="" Url="~/iscrittiregione.aspx" Livello="2" Indice="0" />
+          </Nodi>
+        </Funzione>
+        <Funzione Nome="Password dimenticata">
+          <Nodi>
+            <Nodo TestoMenu="Area pubblica" Padre="" Figlio="C0" Url="" Livello="0" Indice="2" />
+            <Nodo TestoMenu="Password dimenticata" Padre="C0" Figlio="" Url="~/passwordimenticata.aspx" Livello="1" Indice="0" />
+          </Nodi>
+        </Funzione>
+      </Funzioni>
+    </Menu>
+  </ListaMenu>
+</DescrittoreMenu>

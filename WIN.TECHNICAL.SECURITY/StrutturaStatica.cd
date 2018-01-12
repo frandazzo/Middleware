@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Ad un profilo sono assegnati più permessi &#xD;&#xA;Ad un profilo possono essere associati più ruoli">
+    <Position X="7.104" Y="4.146" Height="0.979" Width="1.45" />
+  </Comment>
+  <Comment CommentText="Ad un ruolo sono assegnati uno o più profili.&#xD;&#xA;Ad un ruolo possono essere associati più utenti">
+    <Position X="5" Y="2.812" Height="1.021" Width="1.512" />
+  </Comment>
+  <Comment CommentText="Ad un utente è assegnato un ruolo">
+    <Position X="3.031" Y="2.209" Height="0.75" Width="1.45" />
+  </Comment>
+  <Class Name="Sigemm.Security.SecurityManager">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>SecurityManager.cs</FileName>
+      <HashCode>EAAMAAgIIIIAAAAAAEAAAAAMAAQAAAAAQBAABAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Sigemm.Security.ISecureDataAccess">
+    <Position X="0.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>ISecureDataAccess.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sigemm.Security.Core.IPermission">
+    <Position X="3" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Core\IPermission.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sigemm.Security.Core.IProfile">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\IProfile.cs</FileName>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAgAAAAAAEAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sigemm.Security.Core.IRole">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\IRole.cs</FileName>
+      <HashCode>AAAAACAAAAAgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sigemm.Security.Core.IUser">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\IUser.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAEQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

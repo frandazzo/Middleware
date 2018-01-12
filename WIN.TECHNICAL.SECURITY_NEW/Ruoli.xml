@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DescrittoreRuoli xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="www.fenealgestweb.it">
+  <Ruoli>
+    <Ruolo Nome="Amministratore nazionale">
+      <Profilo>
+        <!--<Funzione Nome="Ricerca nominativi doppi" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Analisi iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Visualizza pubblicazioni" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Gestione newsletter" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Gestione download" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Gestione news" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Ricerca utenti" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Gestione utenti" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Visualizza code in attesa" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Scarica materiali" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Ricerca bilancio" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Report bilancio" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Report bilancio Provinciale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Verifica bilancio" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Report iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Iscriviti alla newsletter" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Visualizza news" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Rinnova password" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Calcola codice fiscale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+      </Profilo>
+    </Ruolo>
+    <Ruolo Nome="Segretario provinciale">
+      <Profilo>
+        <!--<Funzione Nome="Ricerca nominativi doppi" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Analisi iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Visualizza pubblicazioni" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv regionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv regionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Analisi iscritti regionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Iscriviti alla newsletter" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza news" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Scarica materiali" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Rinnova password" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="ImportazioneWebService" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="EsportazioneLavoratoreWebService" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="EsportazioneLavoratoriWebService" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="RicercaLavoratoriWebService" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Calcola codice fiscale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Gestione download" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="ImportazioneBilancioWebService" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Report iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+		<Funzione Nome="SaveImportExportFile" Area="" Comando="" Descrizione="" Gruppo="" />
+ 	    <Funzione Nome="GetListOfFileToDownload" Area="" Comando="" Descrizione="" Gruppo="" />
+		<Funzione Nome="RenameImportExportFile" Area="" Comando="" Descrizione="" Gruppo="" />
+		  <Funzione Nome="GetDocument" Area="" Comando="" Descrizione="" Gruppo="" />
+		  <Funzione Nome="GetDocumentLen" Area="" Comando="" Descrizione="" Gruppo="" />
+		  
+		  
+
+	  </Profilo>
+    </Ruolo>
+    <Ruolo Nome="Segretario regionale">
+      <Profilo>
+        <!--<Funzione Nome="Ricerca nominativi doppi" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Analisi iscritti" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza pubblicazioni" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv regionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv regionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Analisi iscritti regionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza lista importazioni" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Elimina Dati importazione" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Pubblica iscritti" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Iscriviti alla newsletter" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza news" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Scarica materiali" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Rinnova password" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Visualizza code in attesa" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Calcola codice fiscale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Gestione download" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="ImportazioneBilancioWebService" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Report iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+      </Profilo>
+    </Ruolo>
+    <Ruolo Nome="Utente regionale">
+      <Profilo>
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv regionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv regionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Iscriviti alla newsletter" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza news" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Scarica materiali" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Rinnova password" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />
+      </Profilo>
+    </Ruolo>
+    <Ruolo Nome="Utente nazionale">
+      <Profilo>
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Iscriviti alla newsletter" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Visualizza news" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Scarica materiali" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Rinnova password" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />
+      </Profilo>
+    </Ruolo>
+    <Ruolo Nome="Funzionario nazionale">
+      <Profilo>
+        <!--<Funzione Nome="Ricerca nominativi doppi" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Analisi iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Visualizza pubblicazioni" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza storico lista lavoratori liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Visualizza storico lavoratore liv nazionale" Area="" Comando="" Descrizione="" Gruppo="" />
+        <!--<Funzione Nome="Iscriviti alla newsletter" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <!--<Funzione Nome="Visualizza news" Area="" Comando="" Descrizione="" Gruppo="" />-->
+        <Funzione Nome="Scarica materiali" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Rinnova password" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Password dimenticata" Area="" Comando="" Descrizione="" Gruppo="" />
+        <Funzione Nome="Report iscritti" Area="" Comando="" Descrizione="" Gruppo="" />
+      </Profilo>
+    </Ruolo>
+  </Ruoli>
+</DescrittoreRuoli>
